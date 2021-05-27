@@ -1,25 +1,18 @@
 {
   "schemaVersion": 1,
   "id": "structurized",
-  "version": "${version}",
+  "version": "1.3.0",
   "name": "Structurized",
   "authors": [
-    "Draylar"
+    "Draylar",
+    "Frqnny"
   ],
   "license": "MIT",
-  "icon": "assets/villages/icon.png",
-  "environment": "*",
-  "entrypoints": {
-    "main": [
-      "draylar.structurized.Structurized"
-    ]
-  },
   "mixins": [
     "structurized.mixins.json"
   ],
+  "accessWidener": "structurized.accesswidener",
   "depends": {
-    "fabricloader": ">=0.8.2+build.194",
-    "fabric": "*",
-    "minecraft": "1.15.2"
+    "minecraft": "1.17.x"
   }
 }

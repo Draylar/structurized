@@ -3,10 +3,8 @@
   "package": "draylar.structurized.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
-    "StructurePoolAccessor",
-    "StructurePoolRegistryMixin"
-  ],
-  "client": [
+    "DynamicRegistryManagerMixin",
+    "StructurePoolAccessor"
   ],
   "injectors": {
     "defaultRequire": 1
